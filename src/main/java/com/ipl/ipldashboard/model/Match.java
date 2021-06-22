@@ -107,6 +107,12 @@ public class Match {
 	public void setUmpire2(String umpire2) {
 		this.umpire2 = umpire2;
 	}
+	@Override
+	public String toString() {
+		return "Match [date=" + date + ", id=" + id + ", team1=" + team1 + ", team2=" + team2 + "]";
+	}
+
+	
 	
 	
 }
